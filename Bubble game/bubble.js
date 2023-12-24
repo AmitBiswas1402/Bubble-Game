@@ -3,8 +3,8 @@ let score = 0;
 let random = 0;
 
 function incScore(){
-    score += 10;
     document.querySelector("#score-val").textContent = score;
+    score += 10;
 }
 
 function getNewHit(){
