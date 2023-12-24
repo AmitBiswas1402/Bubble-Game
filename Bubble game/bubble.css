@@ -13,7 +13,7 @@ html,body{
 .main{
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    background-color: #1d4e6d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,8 @@ html,body{
     height: 100px;
     width: 100%;
     color: aliceblue;
-    background-color: rgb(155, 207, 103);
+    background-color: #ffbd17;
+    border-radius: 5px;
 }
 
 .element{
@@ -44,6 +45,7 @@ html,body{
 }
 
 .element h4{
+    color: #1d4e6d;
     margin-top: 5px;
     font-size: 21px;
 }
@@ -62,6 +64,8 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 40px;
+    color: #1d4e6d;
     flex-wrap: wrap;
     padding: 20px;
     width: 100%;
@@ -72,7 +76,7 @@ html,body{
 .bubble{
     width: 60px;
     height: 60px;
-    background-color: aqua;
+    background-color: skyblue;
     color: #fff;
     border-radius: 50%;
     font-size: 25px;
@@ -84,6 +88,6 @@ html,body{
 
 .bubble:hover{
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: aqua;
 
 }

@@ -1,4 +1,4 @@
-let timer = 5;
+let timer = 60;
 let score = 0;
 let random = 0;
 
@@ -27,7 +27,7 @@ function runTimer(){
         if(timer>0){
             timer--;
             document.querySelector("#timerval").textContent=timer;
-        } else{
+        } else {
             clearInterval(timerint);
             document.querySelector(".panel-bottom").innerHTML = `<h1>Game Over</h1>`;
         }
